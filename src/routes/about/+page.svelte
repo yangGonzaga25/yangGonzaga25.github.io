@@ -5,7 +5,7 @@
     import { customBackground } from '$lib/store';
 
     let imgSrc = '/images/tanya-profile.jpg'; // Path to your profile picture
-    let name = "Tanya Grace";
+    let name = "Tanya Grace S. Gonzaga";
 
     // CSS for the page
     const cssVariables = (
@@ -38,28 +38,28 @@
     <div class="about-content">
         <h1>About Me</h1>
         <p>
-            Hi, I’m <strong>{name}</strong>, a dedicated student developer with a strong passion for tech and a personal drive to continuously improve myself both inside and outside the classroom.
-            I'm known for being a silent, dependable presence in any group, handling tasks efficiently and ensuring that everything runs smoothly—just like a processor in a computer.
+            Hi, I’m <strong>{name}</strong>, a dedicated student of Bachelor in Science and Information and Technology with a passion for personal drive to continuously improve myself both inside and outside the classroom.
+            I'm known for being a student leader, dependable presence in any group, handling tasks efficiently and ensuring that everything runs smoothly—just like a processor in a computer.
         </p>
 
-        <h2>My Personal Life</h2>
-        <p>
-            When I’m not working on projects, I enjoy taking care of my overall well-being. I’m committed to my fitness journey and have set routines to achieve specific goals, whether it's maintaining my skin’s glow, improving my waistline, or caring for my long hair. I also enjoy incorporating gua sha into my facial care routine and love finding natural ways to enhance my appearance, like teeth whitening.
-        </p>
+        <h2>My Personal Life</h2> 
+        <p> 
+            Outside of my school as a student developer, I enjoy a variety of activities that bring balance to my life. I have a deep appreciation for the moon and often find solace in its presence, whether I’m relaxing at home with my cats or unwinding with a good movie or anime series. I’m also passionate about outdoor adventures—whether it's traveling to new places, hiking through scenic landscapes, or camping under the stars, I always embrace the opportunity to explore. Aside that, I take on commissioned work to help support my family financially, which allows me to channel my skills into meaningful projects while contributing to the people I care about. 
 
-        <h2>Student Experience</h2>
-        <p>
-            My academic life is filled with exciting projects. Currently, I’m working on a system for small and medium clinics to streamline patient management and medical information. I’ve also been involved in organizing events, like quiz competitions and the upcoming sportfest for the College of Computer Studies. These experiences have helped me grow as a team player and honed my leadership and organizational skills.
         </p>
+        <h2>Student Experience</h2> 
+        <p> 
+            Throughout my academic journey, I’ve consistently taken on leadership roles in the schools I’ve attended, and I currently serve as the secretary of ELITES. In this role, I am responsible for handling the organization’s files and ensuring that I effectively serve all BSIT students. My involvement has sharpened my organizational skills and provided me with valuable experience in managing responsibilities.
+            In addition to my academic and organizational commitments, I participated as Chess Player in Sportsfest 2023, where I proudly won a gold medal for the College of Computer Studies department. These experiences—whether in project work or leadership roles—have allowed me to grow as a team player and refine my leadership abilities.
+            
+            </p>
 
         <h2>My Journey as a Student Developer</h2>
         <p>
-            As a developer, I focus on backend systems, database management, and web development using languages and frameworks like PHP, MySQL, HTML, CSS, and Svelte. My journey started with simple projects, but now, I’m working toward more complex systems, like an Efficient Appointment Scheduling System for healthcare management. I’m constantly learning and evolving, pushing my limits to contribute something meaningful to every project I’m a part of.
+            As a developer, I focus on both frontend and backend systems, database management, and web development using languages and frameworks like PHP, MySQL, HTML, CSS, Angular, Python, Java and Svelte. My journey started with simple projects, but now, I’m working toward more complex systems, like an Efficient Appointment Scheduling System for healthcare management. I’m constantly learning and evolving, pushing my limits to contribute something meaningful to every project I’m a part of.
         </p>
 
-        <p>
-            Thank you for taking the time to get to know me. Let’s connect and build something amazing together!
-        </p>
+
     </div>
 </section>
 
@@ -80,7 +80,7 @@
 
 .profile-picture img {
 	margin-top: -180px;
-	margin-bottom: -230px;
+	margin-bottom: -220px;
     width: 50rem;
     height: 50rem;
     border-radius: 50%;

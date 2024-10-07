@@ -1,9 +1,7 @@
 <script lang="ts">
     import "../app.css";
 	import Navbar from '$lib/components/NavBar.svelte';
-	import Button from '$lib/components/Button.svelte';
 	import { page } from '$app/stores';
-	import Modal from '$lib/components/Modal.svelte';
 	import { onMount } from 'svelte';
 	import { customBackground } from '$lib/store';
 	import { Email } from '$lib/Constants';
@@ -42,7 +40,7 @@
 	const backgroundImages: { [key: string]: string } = {
 		'/': 'url(/images/home-bg.gif)', // Home page background
 		'/portfolio': 'url(/images/portfolio-bg.gif)', // Portfolio page background
-		'/contact': 'url(/images/contact-bg.jpg)', // Contact page background
+		'/contact': 'url(/images/contact-bg.gif)', // Contact page background
 		'/about': 'url(/images/about-bg.gif)' // About page background
 	};
 

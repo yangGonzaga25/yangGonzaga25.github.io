@@ -32,10 +32,6 @@
 </main>
 
 <style>
-	a {
-		color: white;
-		text-decoration: none;
-	}
 
 	main {
 		text-align: left;
@@ -105,7 +101,7 @@
 	}
 
 	@media (min-width: 900px) {
-		main > h1 {
+		p {
 			font-size: 48px;
 		}
 	}

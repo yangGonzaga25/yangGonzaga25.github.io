@@ -1,32 +1,32 @@
 <script lang="ts">
     // Array of image paths with corresponding titles
     let projects = [
-        { src: '/images/gallery1.jpg', title: 'Freshman Year' },
-        { src: '/images/gallery2.jpg', title: 'First Project Presentation' },
-        { src: '/images/gallery3.jpg', title: 'Coding Workshop' },
-        { src: '/images/gallery4.jpg', title: 'Group Study Session' },
-        { src: '/images/gallery5.jpg', title: 'Hackathon Event' }
+        { src: '/images/gallery1.jpg', title: 'My Weather App' },
+        { src: '/images/gallery2.jpg', title: 'My Basic E-commerce' },
+        { src: '/images/gallery3.jpg', title: 'My Blog-Post App' },
+        { src: '/images/gallery4.jpg', title: 'My Image Gallery' },
+        { src: '/images/gallery5.jpg', title: 'My Kanban Board' }
     ];
 
     let relevantWorks = [
-        { src: '/images/gallery6.jpg', title: 'Sportfest' },
-        { src: '/images/gallery7.jpg', title: 'Software Development Class' },
-        { src: '/images/gallery8.jpg', title: 'Web Design Presentation' },
-        { src: '/images/gallery9.jpg', title: 'Team VitalSync' },
-        { src: '/images/gallery10.jpg', title: 'Database Class' }
+        { src: '/images/gallery6.jpg', title: '2022 ELITES Business Manager' },
+        { src: '/images/gallery7.jpg', title: 'Digital Literacy Speaker' },
+        { src: '/images/gallery8.jpg', title: '2023-2024 ELITES Secretary' },
+        { src: '/images/gallery9.jpg', title: 'ALS Program -Computer Workspace Essential' },
+        { src: '/images/gallery10.jpg', title: 'Brigada Eskwela Best Matatag School' }
     ];
 
     let webinarCertificates = [
-        { src: '/images/gallery11.jpg', title: 'Tech Meet-up' },
-        { src: '/images/gallery12.jpg', title: 'Final Exam Prep' },
-        { src: '/images/gallery13.jpg', title: 'Learning GitHub' },
-        { src: '/images/gallery14.jpg', title: 'Collaborative Project' },
-        { src: '/images/gallery15.jpg', title: 'Seminar Participation' },
-        { src: '/images/gallery16.jpg', title: 'Event Volunteering' },
-        { src: '/images/gallery17.jpg', title: 'Software Demo' },
-        { src: '/images/gallery18.jpg', title: 'Senior Year' },
-        { src: '/images/gallery19.jpg', title: 'Graduation Day' },
-        { src: '/images/gallery20.jpg', title: 'Farewell Party' }
+        { src: '/images/gallery11.jpg', title: 'Crafting Program-based Community Extension Activities' },
+        { src: '/images/gallery12.jpg', title: 'Web Content Management System using Wordpress' },
+        { src: '/images/gallery13.jpg', title: 'AI-Driven Success' },
+        { src: '/images/gallery14.jpg', title: 'Game On' },
+        { src: '/images/gallery15.jpg', title: 'Tech Trends: Gig Economy' },
+        { src: '/images/gallery16.jpg', title: 'Filipino Web Development' },
+        { src: '/images/gallery17.jpg', title: 'Google Developer Student' },
+        { src: '/images/gallery18.jpg', title: 'Kabataang Digital: Career Opportunities in ICT' },
+        { src: '/images/gallery19.jpg', title: 'Cybersecurity Awareness' },
+        { src: '/images/gallery20.jpg', title: 'Digital StartUp' }
     ];
 </script>
 
@@ -34,7 +34,7 @@
     <h1>My Portfolio</h1>
 
     <!-- Projects Section -->
-    <h2>Projects</h2>
+    <h2>Latest Projects</h2>
     <div class="gallery-grid">
         {#each projects as project (project.src)}
             <div class="gallery-item">
@@ -45,7 +45,7 @@
     </div>
 
     <!-- Relevant Works Section -->
-    <h2>Relevant Works</h2>
+    <h2>Empowered League of Information and Technology Education Student</h2>
     <div class="gallery-grid">
         {#each relevantWorks as work (work.src)}
             <div class="gallery-item">
@@ -69,6 +69,7 @@
 
 <style>
     .gallery-container {
+        margin-top: 2rem;
         padding: 2rem;
         text-align: center;
         background-color: #0101015b;
